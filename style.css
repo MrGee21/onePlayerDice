@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+* {
+	font-family: 'Rubik', sans-serif;
+	box-sizing: border-box;
+    margin: 0;
+}
+
+#game {
+	color: red;
+	background-color: #1b1e2b;
+	font-family: "Source Code Pro", "Roboto Mono", monospace;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 90vh;
+	transition: 0.25s;
+}
+.header h1{
+	padding: 50px;
+}
+.p1{
+	padding: 10px;
+}
+.p2{
+	padding: 10px;
+}
+.image-container{
+	padding-bottom: 50;
+}
+
+/* .player1{
+	padding: 100px; */
+/* .letsPlayDice{
+    padding: 50px; */
+.buttons{
+	display: flex;
+	padding: 100px;
+} 
+#rollPlayer1{ 
+	padding: 10px;
+    border-radius: 10%;
+	background-color: #1b1e2b;
+    color: red;
+}
+#playAgain{
+	padding: 10px;
+    border-radius: 10%;
+	background-color: #1b1e2b;
+    color: red;
+}
